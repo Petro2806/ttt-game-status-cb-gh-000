@@ -24,7 +24,7 @@ def full?(board)
 
     ind+=1
   }
-return 0
+return true
 end
 
 def draw?(board)
