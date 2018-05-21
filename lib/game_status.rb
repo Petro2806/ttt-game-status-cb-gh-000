@@ -13,6 +13,7 @@ def won?(board)
       return cur
     end
   end
+  return nil
 end
 
 def full?(board)
