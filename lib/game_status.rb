@@ -30,7 +30,7 @@ end
 def draw?(board)
   x=won?(board)
   if(x[0]=="X" || x[0]=="O")
-    return false
+    return true
   else
     if(full?(board))
       return true
