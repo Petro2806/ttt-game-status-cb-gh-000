@@ -23,9 +23,9 @@ def full?(board)
       ans+=1
   end
   if(ans==9)
-    retrun true
+    retrun nil
   end
-  return nil
+  return true
 end
 
 def draw?(board)
