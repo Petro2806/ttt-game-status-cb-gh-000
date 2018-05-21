@@ -22,7 +22,7 @@ def full?(board)
     if(x=="X" || x=="O")
       ans+=1
   end
-  return ans==9
+  return ans!=9
 end
 
 def draw?(board)
