@@ -40,7 +40,12 @@ end
 
 def winner(board)
   x=won?(board)
-    return x[0]
-
-
+    if(x[0])
+      if(x[0]=="X")
+        return "X"
+      else
+        return "O"
+      end
+    end
+    return false
 end
