@@ -28,10 +28,15 @@ return true
 end
 
 def draw?(board)
-  if(won?(board))
-    return true
-  else
+  x=won?(board)
+  if(x[0]=="X" || x[0]=="O")
     return false
+  else
+    if(full?(board))
+      return true
+    else
+      return false
+    end
   end
 end
 
