@@ -24,6 +24,7 @@ def full?(board)
   end
   if(ans==9)
     retrun true
+  end
   return nil
 end
 
