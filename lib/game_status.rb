@@ -21,7 +21,7 @@ def full?(board)
   9.times{
     if(board[ind]!="X" && board[ind]!="O")
       return false
-
+    end
     ind+=1
   }
 return true
