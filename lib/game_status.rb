@@ -17,15 +17,14 @@ def won?(board)
 end
 
 def full?(board)
-  ans=0
-  board.each |x|
-    if(x=="X" || x=="O")
-      ans+=1
-  end
-  if(ans==9)
-    retrun nil
-  end
-  return true
+  ind=0
+  9.times{
+    if(board[ind]!="X" && board[ind]!="O")
+      return false
+
+    ind+=1
+  }
+return 0
 end
 
 def draw?(board)
